@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="largeTitle">24dp</dimen>
+    <dimen name="mediumTitle">20sp</dimen>
+    <dimen name="smallTitle">18sp</dimen>
+
+    <dimen name="bigText">16dp</dimen>
+    <dimen name="text">14dp</dimen>
+    <dimen name="smallText">12sp</dimen>
+    <dimen name="tinyText">10sp</dimen>
+
+    <dimen name="largeButton">16dp</dimen>
+    <dimen name="button">14dp</dimen>
+    <dimen name="smallButton">12sp</dimen>
+    <dimen name="tinyButton">10sp</dimen>
+</resources>

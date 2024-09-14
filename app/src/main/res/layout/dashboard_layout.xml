@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="48dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/circle_shape"
+    android:orientation="vertical"
+    android:paddingHorizontal="4dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="0dp">
+
+    <ImageButton
+        android:id="@+id/btn_play"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/circle_shape"
+        android:backgroundTint="@color/green_A700"
+        android:src="@drawable/ic_play"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btn_stop"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/circle_shape"
+        android:backgroundTint="@color/red_600"
+        android:src="@drawable/ic_stop"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btn_add"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/circle_shape"
+        android:backgroundTint="@color/primary_color"
+        android:src="@drawable/ic_add"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btn_setting"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/circle_shape"
+        android:backgroundTint="@color/primary_color"
+        android:src="@drawable/ic_setting"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/circle_shape"
+        android:backgroundTint="@color/red_600"
+        android:src="@drawable/ic_close"
+        app:tint="@color/white" />
+    <ImageButton
+        android:id="@+id/btn_eye"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/circle_shape"
+        android:backgroundTint="@color/grey_700"
+        android:src="@drawable/ic_eye"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/btn_move"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/circle_shape"
+        android:backgroundTint="@color/grey_700"
+        android:src="@drawable/ic_move"
+        app:tint="@color/white" />
+</LinearLayout>
